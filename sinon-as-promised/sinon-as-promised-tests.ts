@@ -1,4 +1,4 @@
-/// <reference path="sinon-as-promised.d.ts"/>
+/// <reference types="sinon"/>
 function testResolve() {
     sinon.stub().resolves('test val');
 }

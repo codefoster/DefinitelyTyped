@@ -3,7 +3,7 @@
 // Definitions by: Jeongho Nam <http://samchon.org>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../typescript-stl/typescript-stl.d.ts" />
+/// <reference types="typescript-stl" />
 
 declare module "samchon-framework"
 {
@@ -4620,12 +4620,12 @@ declare namespace samchon.protocol {
     class MyServer extends Something implements IServer
     {
         private server_base: IServerBase = new WebServerBase(this);
-    
+
         public addClient(driver: IClientDriver): void
         {
             // WHAT TO DO WHEN A CLIENT HAS CONNECTED
         }
-    
+
         public open(port: number): void
         {
             this.server_base.open();

@@ -3,7 +3,7 @@
 // Definitions by: inversify <https://github.com/inversify/>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="../inversify/inversify.d.ts" />
+import inversify = require("inversify")
 
 declare namespace inversifyBindingDecorators {
 

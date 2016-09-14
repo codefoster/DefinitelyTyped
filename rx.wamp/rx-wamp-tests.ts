@@ -1,6 +1,3 @@
-/// <reference path="rx-wamp.d.ts"/>
-/// <reference path="../rx/rx.all.d.ts"/>
-
 function nodeJS(session: autobahn.Session) {
     var sessionObservable =
         Rx.Observable
@@ -151,7 +148,7 @@ function weather_station_monitor(session: autobahn.Session) {
             .flatMap<IWeatherReadings>(readings => analyzer(readings))
             .publish().refCount();
 
-    //Warn of inclement weather coming in  
+    //Warn of inclement weather coming in
     dailyForecast
         //only get warnings
         .filter(weather => (weather.warnings.length > 0))

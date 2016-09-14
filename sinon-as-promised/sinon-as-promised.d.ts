@@ -3,7 +3,7 @@
 // Definitions by: igrayson <https://github.com/igrayson>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../sinon/sinon.d.ts"/>
+/// <reference types="sinon"/>
 
 declare namespace Sinon {
 
@@ -18,6 +18,6 @@ declare namespace Sinon {
      * When called, the stub will return a thenable which will return a reject promise with the provided err. If err is a string, it will be set as the message on an Error object.
      */
     rejects(err:any):SinonStub;
-  } 
+  }
 
 }

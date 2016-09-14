@@ -3,8 +3,8 @@
 // Definitions by: Andy Brown <https://github.com/AGBrown>, Brian Geppert <https://github.com/geppy>, Frederico Galvão <https://github.com/fredgalvao>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path='../pouchdb-adapter-fruitdown/pouchdb-adapter-fruitdown.d.ts' />
-/// <reference path='../pouchdb-adapter-http/pouchdb-adapter-http.d.ts' />
+/// <reference types='pouchdb-adapter-fruitdown' />
+/// <reference types='pouchdb-adapter-http' />
 /// <reference path='../pouchdb-adapter-idb/pouchdb-adapter-idb.d.ts' />
 /// <reference path='../pouchdb-adapter-leveldb/pouchdb-adapter-leveldb.d.ts' />
 /// <reference path='../pouchdb-adapter-localstorage/pouchdb-adapter-localstorage.d.ts' />

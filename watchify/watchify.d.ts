@@ -3,9 +3,8 @@
 // Definitions by: TeamworkGuy2 <https://github.com/TeamworkGuy2>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../browserify/browserify.d.ts" />
-
 declare module 'watchify' {
+    import Browserify = require("browserify");
 
     var Watchify: Watchify.Constructor;
 

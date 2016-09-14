@@ -3,8 +3,8 @@
 // Definitions by: Václav Ostrožlík <https://github.com/vasek17>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="../chai/chai.d.ts" />
-/// <reference path="../sinon/sinon.d.ts" />
+/// <reference types="chai" />
+import Sinon = require("Sinon");
 
 declare var should: Chai.Should;
 declare var expect: Chai.ExpectStatic;

@@ -1,5 +1,3 @@
-/// <reference path="./inversify-logger-middleware.d.ts" />
-
 declare var kernel: inversify.interfaces.Kernel;
 
 import { makeLoggerMiddleware, textSerializer } from "inversify-logger-middleware";
