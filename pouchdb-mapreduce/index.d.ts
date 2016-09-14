@@ -3,7 +3,7 @@
 // Definitions by: Andy Brown <https://github.com/AGBrown>, Brian Geppert <https://github.com/geppy>, Frederico Galvão <https://github.com/fredgalvao>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../pouchdb-core/pouchdb-core.d.ts" />
+/// <reference types="pouchdb-core" />
 
 declare namespace PouchDB {
     export interface Database<Content extends Core.Encodable> {

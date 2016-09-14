@@ -1,6 +1,3 @@
-///<reference path="../react/react.d.ts" />
-///<reference path="./react-file-input.d.ts" />
-
 import * as React from "react";
 import FileInput = require('react-file-input');
 

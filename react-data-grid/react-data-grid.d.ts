@@ -3,12 +3,9 @@
 // Definitions by: Simon Gellis <https://github.com/SupernaviX>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../react/react.d.ts" />
-
+/// <reference types="react" />
 
 declare namespace AdazzleReactDataGrid {
-    import React = __React;
-
     interface GridProps {
         /**
          * Gets the data to render in each row. Required.

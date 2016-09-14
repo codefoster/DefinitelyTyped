@@ -1,26 +1,26 @@
-// Type definitions for pouchdb-adapter-memory v5.4.4
+// Type definitions for pouchdb-adapter-localstorage v5.4.4
 // Project: https://pouchdb.com/
 // Definitions by: Andy Brown <https://github.com/AGBrown>, Brian Geppert <https://github.com/geppy>, Frederico Galvão <https://github.com/fredgalvao>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../pouchdb-core/pouchdb-core.d.ts" />
+/// <reference types="pouchdb-core" />
 
 declare namespace PouchDB {
-    namespace MemoryAdapter {
-        interface MemoryAdapterConfiguration
+    namespace LocalStorageAdapter {
+        interface LocalStorageAdapterConfiguration
                 extends Configuration.LocalDatabaseConfiguration {
-            adapter: 'memory';
+            adapter: 'localstorage';
         }
     }
 
     interface Static {
         new<Content extends Core.Encodable>(name: string | void,
-            options: MemoryAdapter.MemoryAdapterConfiguration
+            options: LocalStorageAdapter.LocalStorageAdapterConfiguration
             ): Database<Content>;
     }
 }
 
-declare module 'pouchdb-adapter-memory' {
+declare module 'pouchdb-adapter-localstorage' {
     const plugin: PouchDB.Plugin;
     export = plugin;
 }

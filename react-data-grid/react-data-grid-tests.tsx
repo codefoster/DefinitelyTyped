@@ -1,7 +1,3 @@
-/// <reference path="./react-data-grid.d.ts" />
-/// <reference path="../react/react.d.ts" />
-/// <reference path="../faker/faker.d.ts" />
-
 import * as React from 'react';
 import * as ReactDataGrid from 'react-data-grid';
 import * as ReactDataGridPlugins from 'react-data-grid/addons';

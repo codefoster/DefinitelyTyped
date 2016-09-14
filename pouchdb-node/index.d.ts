@@ -3,11 +3,11 @@
 // Definitions by: Andy Brown <https://github.com/AGBrown>, Brian Geppert <https://github.com/geppy>, Frederico Galvão <https://github.com/fredgalvao>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../pouchdb-core/pouchdb-core.d.ts" />
-/// <reference path="../pouchdb-adapter-leveldb/pouchdb-adapter-leveldb.d.ts" />
-/// <reference path="../pouchdb-adapter-http/pouchdb-adapter-http.d.ts" />
-/// <reference path="../pouchdb-mapreduce/pouchdb-mapreduce.d.ts" />
-/// <reference path="../pouchdb-replication/pouchdb-replication.d.ts" />
+/// <reference types="pouchdb-core" />
+/// <reference types="pouchdb-adapter-leveldb" />
+/// <reference types="pouchdb-adapter-http" />
+/// <reference types="pouchdb-mapreduce" />
+/// <reference types="pouchdb-replication" />
 
 declare namespace PouchDB {
     namespace Core {

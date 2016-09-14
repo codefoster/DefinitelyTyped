@@ -3,12 +3,9 @@
 // Definitions by: Giedrius Grabauskas <https://github.com/GiedriusGrabauskas>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-///<reference path='../react/react.d.ts' />
+///<reference types='react' />
 
 declare namespace ReactSwipeableModule {
-
-    import React = __React;
-
     interface onSwipingCallback {
         (event: React.TouchEvent, deltaX: number, deltaY: number, absX: number, absY: number, velocity: number): void;
     }

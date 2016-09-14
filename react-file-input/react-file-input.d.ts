@@ -3,11 +3,9 @@
 // Definitions by: Dmitry Rogozhny <https://github.com/dmitryrogozhny>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-///<reference path="../react/react.d.ts" />
+///<reference types="react" />
 
 declare module "react-file-input" {
-    import React = __React;
-
     interface FileInputProps {
         name: string;
         className: string;

@@ -3,13 +3,11 @@
 // Definitions by: Kostya Esmukov <https://github.com/KostyaEsmukov>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-///<reference path="../react/react.d.ts"/>
-///<reference path="../react-router/react-router.d.ts"/>
-///<reference path="../i18next/i18next.d.ts" />
-
+///<reference types="react"/>
+///<reference types="react-router"/>
 
 declare namespace ReactI18next {
-    import React = __React;
+    import I18next = require("i18next");
 
     export type TranslationFunction = I18next.TranslationFunction;
 

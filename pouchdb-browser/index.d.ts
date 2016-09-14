@@ -1,12 +1,15 @@
-// Type definitions for pouchdb-http v5.4.4
+// Type definitions for pouchdb-browser v5.4.4
 // Project: https://pouchdb.com/
 // Definitions by: Andy Brown <https://github.com/AGBrown>, Brian Geppert <https://github.com/geppy>, Frederico Galvão <https://github.com/fredgalvao>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../pouchdb-core/pouchdb-core.d.ts" />
-/// <reference path="../pouchdb-adapter-http/pouchdb-adapter-http.d.ts" />
+/// <reference types="pouchdb-core" />
+/// <reference types="pouchdb-adapter-idb" />
+/// <reference types="pouchdb-adapter-http" />
+/// <reference types="pouchdb-mapreduce" />
+/// <reference types="pouchdb-replication" />
 
-declare module 'pouchdb-http' {
+declare module 'pouchdb-browser' {
     const PouchDb: PouchDB.Static;
     export = PouchDb;
 }

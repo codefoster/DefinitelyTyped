@@ -1,9 +1,3 @@
-// React-Autosuggest Test
-// ================================================================================
-///<reference path="react-autosuggest.d.ts"/>
-///<reference path="../react/react.d.ts"/>
-///<reference path="../react/react-dom.d.ts"/>
-
 //region Imports
 import React = require('react');
 import ReactDOM = require('react-dom');

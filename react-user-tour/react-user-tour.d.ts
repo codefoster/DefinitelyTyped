@@ -3,7 +3,7 @@
 // Definitions by: Carlo Cancellieri <https://github.com/ccancellieri>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path='../react/react.d.ts' />
+/// <reference types='react' />
 
 declare module 'react-user-tour' {
 

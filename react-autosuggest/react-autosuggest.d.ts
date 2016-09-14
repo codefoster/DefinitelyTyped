@@ -3,11 +3,9 @@
 // Definitions by: Nicolas Schmitt <https://github.com/nicolas-schmitt>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../react/react.d.ts"/>
+/// <reference types="react"/>
 
 declare namespace ReactAutosuggest {
-  import React = __React;
-
   interface SuggestionUpdateRequest {
     value: string;
     reason: string;
