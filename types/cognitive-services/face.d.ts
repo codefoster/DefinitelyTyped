@@ -1,0 +1,31 @@
+export class face {
+	constructor(_ref: any);
+	addAFaceToAFaceList(_ref7: any): any;
+	addAPersonFace(_ref13: any): any;
+	createAFaceList(_ref8: any): any;
+	createAPerson(_ref14: any): any;
+	createAPersonGroup(_ref22: any): any;
+	deleteAFaceFromAFaceList(_ref9: any): any;
+	deleteAFaceList(_ref10: any): any;
+	deleteAPerson(_ref15: any): any;
+	deleteAPersonFace(_ref16: any): any;
+	deleteAPersonGroup(_ref23: any): any;
+	detect(_ref2: any): any;
+	findSimilar(_ref3: any): any;
+	getAFaceList(_ref11: any): any;
+	getAPerson(_ref17: any): any;
+	getAPersonFace(_ref18: any): any;
+	getAPersonGroup(_ref24: any): any;
+	getPersonGroupTrainingStatus(_ref25: any): any;
+	group(_ref4: any): any;
+	identify(_ref5: any): any;
+	listFaceLists(): any;
+	listPersonGroups(_ref26: any): any;
+	listPersonsInAPersonGroup(_ref19: any): any;
+	trainPersonGroup(_ref27: any): any;
+	updateAFaceList(_ref12: any): any;
+	updateAPerson(_ref20: any): any;
+	updateAPersonFace(_ref21: any): any;
+	updateAPersonGroup(_ref28: any): any;
+	verify(_ref6: any): any;
+}
