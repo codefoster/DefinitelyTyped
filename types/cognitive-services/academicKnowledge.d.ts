@@ -80,22 +80,34 @@ export interface EvaluateHeaders {
 }
 
 export interface EvaluateParameters {
-	/// A query expression that specifies which entities should be returned.
+	/** 
+	 * A query expression that specifies which entities should be returned.
+	 */
 	expr:string,
 	
-	/// Name of the model that you wish to query. Currently, the value defaults to "latest".
+	/** 
+	 * Name of the model that you wish to query. Currently, the value defaults to "latest".
+	 */
 	model?:string,
 	
-	/// Number of results to return.
+	/** 
+	 * Number of results to return.
+	*/
 	count?:number,
 	
-	/// Index of the first result to return.
+	/** 
+	 * Index of the first result to return.
+	 */
 	offset?:number,
 	
-	/// Name of an attribute that is used for sorting the entities. Optionally, ascending/descending can be specified. The format is: name:asc or name:desc.
+	/** 
+	 * Name of an attribute that is used for sorting the entities. Optionally, ascending/descending can be specified. The format is: name:asc or name:desc.
+	 */
 	orderby?:string,
 	
-	/// A comma delimited list that specifies the attribute values that are included in the response. Attribute names are case-sensitive.
+	/** 
+	 * A comma delimited list that specifies the attribute values that are included in the response. Attribute names are case-sensitive.
+	 */
 	attributes?:string,
 }
 
